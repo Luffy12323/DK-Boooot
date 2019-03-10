@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "-";
-const developers = ["469427192011423764"]
+const developers = ["469427192011423764,382677124278124554"]
 const adminprefix = "-";
 client.on('message', message => {
     if (message.content.startsWith("-bc")) {
@@ -1119,8 +1119,8 @@ client.on("message", message => {
       client.on("message", message => {
 	var prefix = "-";
  if (message.content === "-help-owner") {
-	  if (message.author.id !== '459397282169618462') return message.reply(' :x: **You Are Not Bot Owner | أنت لست صاحب البوت** :x: ')
- if(!message.author.id === '459397282169618462') return;
+	  if (message.author.id !== '469427192011423764,382677124278124554,') return message.reply(' :x: **You Are Not Bot Owner | أنت لست صاحب البوت** :x: ')
+ if(!message.author.id === '469427192011423764,382677124278124554') return;
     message.reply(`**
 	
     شيك على الخاص

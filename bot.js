@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "-";
-const developers = ["469427192011423764,382677124278124554"]
+const developers = ["382677124278124554"]
 const adminprefix = "-";
 client.on('message', message => {
     if (message.content.startsWith("-bc")) {
@@ -1008,7 +1008,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : LuZoNa ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`-help | RP`,"http://twitch.tv/DJ")
+client.user.setGame(`-help | tP`,"http://twitch.tv/DJ")
 client.user.setStatus("dnd")
 });
  
@@ -1119,8 +1119,8 @@ client.on("message", message => {
       client.on("message", message => {
 	var prefix = "-";
  if (message.content === "-help-owner") {
-	  if (message.author.id !== '469427192011423764,382677124278124554,') return message.reply(' :x: **You Are Not Bot Owner | أنت لست صاحب البوت** :x: ')
- if(!message.author.id === '469427192011423764,382677124278124554') return;
+	  if (message.author.id !== '382677124278124554,') return message.reply(' :x: **You Are Not Bot Owner | أنت لست صاحب البوت** :x: ')
+ if(!message.author.id === '382677124278124554') return;
     message.reply(`**
 	
     شيك على الخاص

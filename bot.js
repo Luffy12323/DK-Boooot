@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "-";
-const developers = ["382677124278124554"]
+const developers = ["469427192011423764"]
 const adminprefix = "-";
 client.on('message', message => {
     if (message.content.startsWith("-bc")) {
@@ -594,20 +594,20 @@ client.on('message',async message => {
   
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', 'idd').setName("W");
-client.channels.find('id', 'idd').setName("We");
-client.channels.find('id', 'idd').setName("Wel");
-client.channels.find('id', 'idd').setName("Welc");
-client.channels.find('id', 'idd').setName("Welco");
-client.channels.find('id', 'idd').setName("Welcom");
-client.channels.find('id', 'idd').setName("Welcome");
-client.channels.find('id', 'idd').setName("Welcome T");
-client.channels.find('id', 'idd').setName("Welcome To");
-client.channels.find('id', 'idd').setName("Welcome To C");
-client.channels.find('id', 'idd').setName("Welcome To Co");
-client.channels.find('id', 'idd').setName("Welcome To Cod");
-client.channels.find('id', 'idd').setName("Welcome To Code");
-client.channels.find('id', 'idd').setName("Welcome To Codes");
+client.channels.find('id', '555788294659506196').setName("W");
+client.channels.find('id', '555788294659506196').setName("We");
+client.channels.find('id', '555788294659506196').setName("Wel");
+client.channels.find('id', '555788294659506196').setName("Welc");
+client.channels.find('id', '555788294659506196').setName("Welco");
+client.channels.find('id', '555788294659506196').setName("Welcom");
+client.channels.find('id', '555788294659506196').setName("Welcome");
+client.channels.find('id', '555788294659506196').setName("Welcome T");
+client.channels.find('id', '555788294659506196').setName("Welcome To");
+client.channels.find('id', '555788294659506196').setName("Welcome To C");
+client.channels.find('id', '555788294659506196').setName("Welcome To Co");
+client.channels.find('id', '555788294659506196').setName("Welcome To Cod");
+client.channels.find('id', '555788294659506196').setName("Welcome To Code");
+client.channels.find('id', '555788294659506196').setName("Welcome To Codes");
   }, 60000);
 });
 

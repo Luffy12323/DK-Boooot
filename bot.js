@@ -592,7 +592,26 @@ client.on('message',async message => {
   });
   
   
-  
+client.on("ready", async  => {
+setInterval(function(){
+client.channels.find('id', 'idd').setName("W");
+client.channels.find('id', 'idd').setName("We");
+client.channels.find('id', 'idd').setName("Wel");
+client.channels.find('id', 'idd').setName("Welc");
+client.channels.find('id', 'idd').setName("Welco");
+client.channels.find('id', 'idd').setName("Welcom");
+client.channels.find('id', 'idd').setName("Welcome");
+client.channels.find('id', 'idd').setName("Welcome T");
+client.channels.find('id', 'idd').setName("Welcome To");
+client.channels.find('id', 'idd').setName("Welcome To C");
+client.channels.find('id', 'idd').setName("Welcome To Co");
+client.channels.find('id', 'idd').setName("Welcome To Cod");
+client.channels.find('id', 'idd').setName("Welcome To Code");
+client.channels.find('id', 'idd').setName("Welcome To Codes");
+  }, 60000);
+});
+
+
 client.on('message', message => {
     var prefix = "-";
 if(!message.channel.guild) return;

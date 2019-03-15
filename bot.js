@@ -590,28 +590,13 @@ client.on('message',async message => {
     });
     }
   });
-  
-  
-client.on("ready", async  => {
-setInterval(function(){
-client.channels.find('id', '555788294659506196').setName("W");
-client.channels.find('id', '555788294659506196').setName("We");
-client.channels.find('id', '555788294659506196').setName("Wel");
-client.channels.find('id', '555788294659506196').setName("Welc");
-client.channels.find('id', '555788294659506196').setName("Welco");
-client.channels.find('id', '555788294659506196').setName("Welcom");
-client.channels.find('id', '555788294659506196').setName("Welcome");
-client.channels.find('id', '555788294659506196').setName("Welcome T");
-client.channels.find('id', '555788294659506196').setName("Welcome To");
-client.channels.find('id', '555788294659506196').setName("Welcome To C");
-client.channels.find('id', '555788294659506196').setName("Welcome To Co");
-client.channels.find('id', '555788294659506196').setName("Welcome To Cod");
-client.channels.find('id', '555788294659506196').setName("Welcome To Code");
-client.channels.find('id', '555788294659506196').setName("Welcome To Codes");
-  }, 60000);
+	
+	
+client.on("guildMemberAdd", member => {
+  client.channels.find('id', '555787209563701259).send(`**welcome to 4K : [ ${member} ]**`)
 });
-
-
+	
+	
 client.on('message', message => {
     var prefix = "-";
 if(!message.channel.guild) return;
